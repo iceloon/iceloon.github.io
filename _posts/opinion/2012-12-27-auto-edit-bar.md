@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 随内容滚动隐藏的工具栏
+title: 随内容滚动隐藏的工具栏 - by BeiYuu
 description: 又一个专属移动设备上的交互细节，有用有趣。
 category: opinion
 ---
