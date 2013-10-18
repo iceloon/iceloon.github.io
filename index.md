@@ -1,7 +1,9 @@
 ---
 layout: home
 ---
-
+<!--
+    致敬 BeiYuu.com  __  by Sun
+-->
 <div class="index-content blog">
     <div class="section">
         <ul class="artical-cate">
