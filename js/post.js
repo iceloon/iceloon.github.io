@@ -26,11 +26,20 @@ $(document).ready(function(){
     //***********************
     
     //var duoshuoQuery = {short_name:"iceloon"}; // required: replace example with your forum shortname
-    var sun = $('#disqus_container .ds-thread');
+    
     $('#disqus_container .comment').on('click',function(){
         $(this).html('加载中...');
         var that = this;
+        var sun = $('#disqus_container .ds-thread');
         this.remove();
+        var duoshuoQuery = {short_name:"iceloon"};
+          
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+          
         sun.show()
     });
  
