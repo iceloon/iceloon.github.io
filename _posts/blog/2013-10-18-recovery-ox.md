@@ -12,7 +12,8 @@ category: blog
 
 ###2、在命令界面中定位到＂X:\windows\system32＂目录下（X为win7的系统目录分区）,
 运行命令
-	$ bcdedit -create {ntldr} -d ＂WinXP＂
+
+	$ bcdedit -create {ntldr} -d "WinXP"
 
 ###3、继续命令
 
