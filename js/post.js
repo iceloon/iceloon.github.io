@@ -32,14 +32,6 @@ $(document).ready(function(){
         var that = this;
         var sun = $('#disqus_container .ds-thread');
         this.remove();
-        var duoshuoQuery = {short_name:"iceloon"};
-          
-        var ds = document.createElement('script');
-        ds.type = 'text/javascript';ds.async = true;
-        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-        ds.charset = 'UTF-8';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
-          
         sun.show()
     });
  
