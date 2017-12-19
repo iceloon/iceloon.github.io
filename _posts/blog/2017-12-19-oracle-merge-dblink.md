@@ -5,7 +5,8 @@ description: Windows定时任务 dblink merge into 批处理
 category: blog
 ---
 
-##**DBLINK**
+##DBLINK
+
 Oracle dblink 是干啥的：比如现在有俩个数据库，都是单独的，如果我们现在登陆当前数据库orcl，想访问另一个数据库orcl2，如果我们建了DBLINK我们就可以直接在当前数据库取访问另一个数据库。 如select * from user@orcl2 这样我们就可以直接访问另一个数据库的user表。dblink是单向的。
 
 **语法：**
@@ -19,6 +20,7 @@ CREATE [SHARED][PUBLIC] database link link_name
 ```
 
 **建立database link之前需要确认的事项：**
+
 ​	确认从local database到remote database的网络连接是正常的，tnsping要能成功。
 ​	确认在remote database上面有相应的访问权限。
 
